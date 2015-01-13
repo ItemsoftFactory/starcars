@@ -1,0 +1,318 @@
+@font-face 
+{
+    font-family: big_noodle;
+    src: url("../fonts/big_noodle_titling.ttf");
+}
+
+@font-face 
+{
+    font-family: Antipasto_regular;
+    src: url("../fonts/Antipasto_regular.otf");
+}
+
+
+*
+
+{
+	margin: 0;
+	padding: 0;
+}
+
+html, body
+{		
+	height: 100%;
+	width: 100%;
+}	
+
+body
+{	
+	background: #fce300;
+	background: -moz-linear-gradient(left,  #fce300 0%, #ea3535 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#fce300), color-stop(100%,#ea3535));
+	background: -webkit-linear-gradient(left,  #fce300 0%,#ea3535 100%);
+	background: -o-linear-gradient(left,  #fce300 0%,#ea3535 100%);
+	background: -ms-linear-gradient(left,  #fce300 0%,#ea3535 100%);
+	background: linear-gradient(to right,  #fce300 0%,#ea3535 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fce300', endColorstr='#ea3535',GradientType=1 );
+	font-size: 16px;
+}
+	
+figure img
+{
+	height: auto;
+	width: 100%;
+	
+}
+
+footer
+{
+	border: solid 2px #E0E1DD;
+	border-width: 2px 0 0 0;
+	height: 10%;
+	margin: 0;   
+	padding: 0.4em 0;
+	width: 100%;
+}
+
+header
+{
+	width: 100%;
+}
+
+nav
+{
+	background: rgba(0, 0, 0, 0.5);
+	margin:1em auto;
+	width: 95%;
+	box-shadow: -6px 6px 5px #4F4F4F;
+	/*border: solid 1px green;*/
+}
+
+nav ul
+{
+	width: 975px;
+	margin: 0 auto;
+}
+nav ul li
+{
+	
+	box-sizing: border-box;
+	display: inline-block;
+	height: 2.8em;
+	list-style: none;
+	margin: 0 -0.25em -0.19em 0;
+	overflow: hidden;
+	padding: 0.5em 1em 0.2em 1em;
+	text-align: center;
+}
+
+nav ul li:hover
+{
+	border: solid 3px #F5F5F3;
+	border-width: 0 0 3px 0;
+}
+
+
+nav ul li a
+{
+	color: #F5F5F3;
+	font-family: big_noodle;
+	font-weight: bold;
+	font-size: 1.8em;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+.car
+{
+	display: inline-block;	
+	margin-top: 1em;	
+	vertical-align: top;
+	width: 49.5%;	
+}
+
+.car img
+{
+	display: block;
+}
+
+.info p
+{
+	color: #F5F5F3;
+	font-family: big_noodle;
+	font-size: 2em;
+}
+.info,.logo
+{
+	display: inline-block;
+	margin-top: 1%;
+	vertical-align: top;
+	width: 40%;
+	/*border: solid 1px green;*/
+}
+
+.info
+{
+	float: right;
+	min-width: 240px;
+	width: 18%;
+}
+
+.info a
+{
+	color: #F5F5F3;
+	font-size: 2em;
+	margin-right: 0.2em;
+}
+
+.logo, .logo img
+{
+	min-width: 333px;
+}
+
+.logo img
+{	margin: 0;
+	width: 80%;
+}
+
+.info .fa:hover
+{
+	border: solid  2px #F5F5F3;
+	border-width: 0 0 2px 0;
+	padding-bottom: 4px;
+}
+
+.menu-bar
+{
+	box-sizing: border-box;
+	background: rgba(0, 0, 0, 0.6);
+	display: none;
+	padding: 0.5em;
+	width: 100;
+
+}
+
+.menu-bar a
+{
+	color: #EDEDEB;
+	font-family: big_noodle;
+	font-size: 2.2em;
+	text-decoration: none;
+	text-shadow: 2px 2px 5px #272822;
+}
+
+.article
+{
+	border: 2px solid #E0E1DD;
+	border-width: 0 0 2px 0;
+	margin: 0;
+}
+
+.article hr
+{
+	margin: 0 auto 1em auto;
+	width: 95%;
+}
+
+.article p
+{
+	margin-top: -0.5em;
+	padding: 1%;
+	text-align: justify;
+}
+
+.article h2
+{
+	font-size: 2.2em;
+	letter-spacing: 0.1em;
+	text-align: center;
+	text-shadow: 1px 1px 1px #FFFFFF;
+
+}
+
+.content
+{
+	background: rgba(0, 0, 0, 0.5);
+	color: #E0E1DD;
+	font-family: Antipasto_regular;
+	font-size: 1.3em;
+	text-align: center;
+	letter-spacing: 0.07em;
+}
+
+.contact
+{
+	padding: 1.5em 0;
+}
+
+.contact form
+{
+	text-align: left;
+	margin: 0.5em auto;
+	width: 80%;
+}
+
+.contact p
+{
+	font-size: 0.8em;
+	margin: 1em 5em;
+}
+
+.contact #name, .contact #email
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 49.5%;
+}
+
+
+.contact #message
+{
+	margin-top:0.8em;
+}
+
+.contact input, .contact textarea
+{
+	border: solid 1px #E0E1DD;
+	color: #E0E1DD;
+	font-size: 1em;
+	font-family: Antipasto_regular;
+	padding: 0.5em;
+	width: 99.5%;
+	background: rgba(0,0,0,0.5);
+	box-sizing: border-box;
+}
+
+.contact textarea
+{
+	width: 99.2%;
+}
+
+.contact input
+{
+	height: 2em;
+}
+
+.content footer p
+{
+	font-size: 0.8em;
+	margin: 0.1em 0.2em 0.2em 0.2em;
+}
+
+#article_2
+{
+	display: none; 
+}
+
+#article_2 i, #article_2 p
+{
+	font-size: 2em;
+}
+#article_2 p
+{
+	text-align: center;
+}
+#article_2 h2 i
+{
+	font-size: 0.8em;
+}
+
+#article_2 #desc
+{
+	font-size: 1.2em;
+	letter-spacing: 0.08em;
+	margin: -0.5em 1em 0.2em 1em;
+}
+
+#cblue img
+{
+	width: 90%;
+}	
+
+#contact_us
+{
+	display: none;
+}
+
+
+

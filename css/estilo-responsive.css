@@ -1,0 +1,33 @@
+@media screen and (max-width: 1080px) {	
+	nav { width: 95%; border: solid 1px transparent;}
+	nav ul {width: 814px;}
+	nav ul li a {font-size: 1.4em; }
+	
+
+}
+
+
+@media screen and (max-width: 896px) {
+	nav,ul {margin:0; width: 100%;  box-sizing: border-box;}
+	nav { margin-top: -0.0.8em; display: none;}
+	nav ul {width: 100%;  box-sizing: border-box;}
+	nav ul li {display: block; text-align: left; background: rgba(0, 0, 0, 0.3); border: none; margin-top: 0.12em; width: 100%;}
+	nav ul li:hover {color: #EDEDEB; border: none; background: rgba(0, 0, 0, 0.8);}
+	nav ul li a {font-size: 1.8em; color: #EDEDEB;}
+	.menu-bar { display: block;}
+	#cblue {display: none;}
+	#cred {display: block; width: 100%; background: #FFFFFF; margin-top: 0;}
+
+}
+
+@media screen and (max-width: 600px) {
+	nav { display: none;}
+	.info {display: none;}
+	.logo img {width: 100%;}
+	.logo {display: block; width: 70%; margin: 0 auto;}
+	#contact_us {display:block;}
+	#article_1 {display: none}
+	#article_2{display: block}
+	.contact #name, .contact #email , .contact #message {width: 100%;}
+	.contact p{	font-size: 0.7em;  margin: 1em 0.5em;}
+}
